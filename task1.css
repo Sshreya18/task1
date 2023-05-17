@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+.login{
+  background-color: rgb(209, 91, 49);
+  background-size: 5px 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.signup{
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.bg-img {
+  background-image: url("/images/imgg.jpg");
+  min-height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+.container.page{
+  position: absolute;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  margin-left: 70px;
+  display: inline;
+}
+.logo div{
+  display: inline;
+  justify-content: right;
+  margin: 3px;
+  top:
+}
+
+.logo img{
+  width:35px;
+  margin-bottom: 16px;
+  mix-blend-mode: multiply;
+}
+.stack{
+  float: left;
+  margin-top: 2px;
+  margin-right: 40vw;
+}
+
+.topnav {
+  float: left;
+  overflow: hidden;
+  display: flex;8
+  justify-content: right;
+}
+.topnav a {
+  float: left;
+  color:black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline;
+  justify-content: right;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 5px;
+} 
+.center{
+  position: absolute;
+  color:white;
+  top: 50vh;
+  left: 37vw;
+  display:flex;
+  font-size: 30px;
+  justify-content: center;
+  white-space:nowrap;
+}
+.box {
+  margin:15px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.services{
+  text-align: center;
+  font-size: 30px;
+}
+.one{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.two{
+  width: 23%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.three{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column {
+  float:right;
+  width: 15%;
+  height:180px;
+  padding:15px;
+  margin:10px;
+  box-shadow:#f2f2f2;
+  border: 1px solid rgb(220, 208, 208);
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  font-size: 15px;;
+}
+p{
+  font-size: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
